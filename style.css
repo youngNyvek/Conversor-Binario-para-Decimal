@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(71, 29, 71);
+    color: white;
+    font: normal 18pt Arial;
+    text-align: center;
+}
+
+#content{
+    background: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 50px 0;
+    border-radius: 10px;
+    top: 100px;
+    position: relative;
+
+}
+label {
+
+    color: black;
+    font-size: 15pt;
+    margin-right: 200px;
+}
+
+#div1{
+    margin: 0 107px;
+}
+
+div#binario-content input#binario{
+    padding: 10px;
+    border-color: rgb(71, 29, 71);
+
+    color: black;
+    font-weight: bold;
+
+    border-radius: 10px;
+    border-width: 1px;
+    
+}
+
+#res{
+
+    background-color: rgb(71, 29, 71);
+    border-width: 10px;
+
+    border-radius: 10px;
+    border-color: black;
+
+    padding: 5px;
+    margin-top: 10px;
+
+    transition: 200ms;
+
+    text-align: left;
+}
+
+.hide{
+    opacity: 0;
+    
+}
+
+
+.button{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgb(71, 29, 71);
+    transition: 200ms;
+}
+
+.button:hover{
+    background-color:rgb(71, 29, 71) ;
+    color: white;
+    cursor: pointer;
+}
